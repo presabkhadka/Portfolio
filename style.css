@@ -1,100 +1,55 @@
 *{
+    padding: 0;
     margin: 0;
-    border: border-box;
 }
 
-/* NAVBAR PORTION */
-
-.navbar{
-    background-color: black;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-logo{
-    color: white;
-    width: 40%;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.navbar-logo span{
-    color: orange;
-}
-
-.navbar-options{
-font-size: 1rem;
-font-weight: bold;
-}
-
-.navbar-options a{
-    color: #8d8b8b;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
-.navbar-options a:hover{
-    border-bottom: 1px solid white;
-}
-
-
-/* CONTENT PORTION */
-
-.content-section{
-    background-color: #232f3e;
-    height: 630px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.text-part{
-    width: 40%;
-}
-
-#greetings{
-    color: orange;
-    font: 1rem;
-}
-
-.text-part h1{
-    color: white;
-    margin-top: 20px;
-}
-
-.text-part p{
-    color: #dddddd;
-    width: 70%;
-    margin-top: 10px;
-}
-
-button{
-    color: black;
-    background-color: yellow;
-    height: 40px;
-    width: 100px;
-    border-radius: 5px;
-    border: none;
-    margin-top: 15px;
-}
-
-.image-part{
-    background-image: url(/image/0.5.jpg);
-    height: 400px;
-    width: 30%;
-    border-radius: 15px;
+body{
+    background-image: url(./images/bg.jpg);
     background-size: cover;
 }
 
-/* FOOTER PORTION */
-
-.foot-section{
-    background-color: black;
-    color: white;
-    height: 40px;
+.maincontainer{
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    padding: 100px;
     
 }
+
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;    
+}
+
+#btn{
+    background-color: pink;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+#btnn{
+    background-color: pink;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+#btnn:hover{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#btn:hover{
+    background-image: url(./images/rose.gif);
+}
+
+
+
+
+
